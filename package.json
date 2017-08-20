@@ -25,5 +25,5 @@
     "eject": "react-scripts eject",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://flipmotion.github.io/elevator/build"
+  "homepage": "https://flipmotion.github.io/elevator/build/index.html"
 }
