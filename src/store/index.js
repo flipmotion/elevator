@@ -9,6 +9,6 @@ export const configureStore = preloadedState => createStore(
   window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__(),
   applyMiddleware(
     thunkMiddleware,
-    //createLogger()
+    createLogger()
   ),
 );
